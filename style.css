@@ -1,0 +1,162 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Hiragino Kaku Gothic ProN W3', sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* ここからCSSを書いていきましょう */
+.header-left h1 {
+  padding: 10px 0;
+  color: red;
+
+}
+.top-wrapper {
+  padding: 180px 0 100px 0;
+  background-image: url(https://th.bing.com/th/id/OIP.b1x7coNF56z3TiMT-4kwvQHaD4?w=334&h=180&c=7&r=0&o=5&dpr=2&pid=1.7);
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+.top-wrapper h1 {
+  font-size: 60px;
+  color: white;
+  letter-spacing: 5px;
+  opacity: 1.0;
+}
+.top-wrapper p {
+  opacity: 0.8;
+  color: white;
+  margin-bottom: 15px;
+}
+.signup {
+  background-color: black;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.google {
+  background-color: rgb(98, 98, 4);
+  margin-right: 10px;
+}
+.line {
+  background-color: green;
+}
+.btn {
+  padding: 8px 24px;
+  color: white;
+  opacity: 0.8;
+  border-radius: 4px;
+  display: inline-block;
+}
+.btn:hover {
+  opacity: 1;
+}
+.fa {
+  margin-right: 5px;
+}
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+header {
+  background-color: rgba(34, 49, 52, 0.9);
+  height: 65px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+  width: 124px;
+  margin-top: 20px;
+}
+.header-left {
+  float: left;
+}
+.header-right {
+  float: right;
+  background-color: rgba(255, 255, 255, 0.3);
+  transition: all 0.5s;
+}
+.header-right:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  display: block;
+  color: white;
+}
+.lesson-wrapper {
+  height: 700px;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+.heading {
+  color: #5f5d60;
+  padding-top: 80px;
+  padding-bottom: 50px;
+}
+.heading h2 {
+  font-weight: normal;
+}
+.heading h3 {
+  padding-top: 15px;
+}
+
+.lesson-icon p {
+  color: whitesmoke;
+  font-size: large;
+  background-color: rgba(34, 49, 52, 0.9);
+  width: 100%;
+  margin-top: 10px;
+}
+.baka {
+  border-bottom: solid;
+  border-color:#5f5d60;
+}
+.text-contents {
+  margin: 15px 0;
+  font-size: medium;
+  width: 100%;
+  color: red;
+
+}
+.message-wrapper {
+  padding-bottom: 80px;
+  text-align: center;
+}
+.message {
+  padding: 15px 40px;
+  background-color: #5dca88;
+  box-shadow: 0 7px #1a7940;
+}
+.message:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+footer img{
+  width: 124px;
+}
+footer p {
+  color: #b3aeb5;
+  font-size: 12px;
+}
+footer {
+  padding: 30px 0;
+  border-top: 1px solid #eee;
+}
